@@ -1,9 +1,9 @@
 
 using System.ComponentModel.DataAnnotations;
 
-namespace PlatformService;
+namespace PlatformService.Models;
 
-public class Platform
+public class Platform : IEntity
 {
     [Key]
     [Required]
